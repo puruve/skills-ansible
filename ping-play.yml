@@ -1,0 +1,6 @@
+---
+- name: Example Playbook
+  hosts: localhost
+  tasks:
+    - name: Ping localhost
+      ansible.builtin.ping:
